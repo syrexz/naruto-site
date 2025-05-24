@@ -20,12 +20,21 @@ body{
 }
 
 
+@media (min-width: 300px){
+    .container-formulario form{
+    width: 300px;
+}
+}
+
 
 @media (min-width: 992px) {
     .navbarResponsiva {
         display: flex !important;
         flex-basis: auto;
     }
+    .container-formulario form{
+    width: 600px;
+}
 }
 
 @media (min-width: 992px) {
@@ -34,7 +43,10 @@ body{
         margin-left: 0.25rem !important;
     }
 
+
 }
+
+
 
 
 .header {
@@ -198,7 +210,6 @@ div#top-villains.content{
 }
 
 .container-formulario form{
-    width: 600px;
     display: flex;
     flex-direction: column;
 }
