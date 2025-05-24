@@ -190,6 +190,20 @@ div#top-villains.content{
     cursor .4s step-end infinite alternate;
 }
 
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-formulario form{
+    width: 600px;
+}
+
+.cards-container{
+    flex-wrap: wrap;
+}
+
 
 @keyframes typing{
     from {
