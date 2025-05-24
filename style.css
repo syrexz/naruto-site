@@ -194,14 +194,25 @@ div#top-villains.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container-formulario form{
     width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-container{
     flex-wrap: wrap;
+}
+
+footer *{
+    color: aqua !important ; 
+}
+
+footer {
+    background: #333;
 }
 
 

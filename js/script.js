@@ -14,4 +14,22 @@ function mostraTexto() {
   }).go();
 }
 
+function enviarFormulario(event) {
+    event.preventDefault();
+    // pegar o valor do e-mail e pegar o valor da senha e mostrar num console.log
+
+    const nome = document.querySelector("#nome").value
+    const senha = document.querySelector("#senha").value
+
+    
+    
+    console.log({
+        nome: nome,
+        senha, senha
+    })
+}
+
+
+
+
 
