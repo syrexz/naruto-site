@@ -27,7 +27,11 @@ function enviarFormulario(event) {
         nome: nome,
         senha, senha
     })
+
+    window.alert("Mensagem Recebida. Obrigado!");
 }
+
+
 
 
 
