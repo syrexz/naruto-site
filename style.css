@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: #191919;
     color: #fff;
@@ -252,4 +256,35 @@ footer {
     50% {
         border-color: transparent;
     }
+}
+
+
+
+
+.menu-topicos {
+  padding: 10px;
+}
+
+.titulo-menu {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.lista-topicos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-topicos li {
+  margin-bottom: 10px;
+}
+
+.lista-topicos a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lista-topicos a:hover {
+  text-decoration: underline;
 }
